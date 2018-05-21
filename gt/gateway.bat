@@ -1,0 +1,1 @@
+java -Dfile.encoding=UTF-8 -XX:SurvivorRatio=5 -XX:-UseAdaptiveSizePolicy -XX:NewRatio=1 -XX:+PrintGCDetails -XX:HeapDumpPath=hdp.hprof -XX:ErrorFile=crash.log -XX:+PrintCommandLineFlags -Xmx2048m -Xms256m -XX:+HeapDumpOnOutOfMemoryError -jar ./lib/gateway-1.0-SNAPSHOT.jar
